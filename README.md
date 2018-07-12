@@ -1,0 +1,1 @@
+# Blog.IAS.PatronesDeDisenoEnCS.StrategyBasico
