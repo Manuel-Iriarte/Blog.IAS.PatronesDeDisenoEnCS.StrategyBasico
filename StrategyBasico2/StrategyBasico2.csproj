@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6FA7C8A7-3199-447A-87EB-7FC65025D4E3}</ProjectGuid>
+    <ProjectGuid>{F5B3FF8C-7324-487E-9546-63969081930C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StrategyBasico</RootNamespace>
-    <AssemblyName>StrategyBasico</AssemblyName>
+    <RootNamespace>StrategyBasico2</RootNamespace>
+    <AssemblyName>StrategyBasico2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,14 +44,14 @@
   <ItemGroup>
     <Compile Include="CalculadoraEngine\CalculadoraContext.cs" />
     <Compile Include="CalculadoraEngine\ICalculoStrategy.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CalculadoraEngine\Implementaciones\Resta.cs" />
     <Compile Include="CalculadoraEngine\Implementaciones\Suma.cs" />
+    <Compile Include="CalculadoraEngine\TipoCalculo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
